@@ -3,7 +3,7 @@
 require 'pry'
 def key_for_min_value(hash)
   lowest_key = ''
-  lowest_value = 0
+  lowest_value = nil
 
   binding.pry
   hash.each do |k, v|
