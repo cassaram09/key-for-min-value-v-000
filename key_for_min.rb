@@ -7,7 +7,7 @@ def key_for_min_value(hash)
 
   #binding.pry
   hash.each do |k, v|
-    if  v < lowest_value || lowest_value == nil
+    if  lowest_value == nil || v < lowest_value 
       lowest_value = v
     end
   end
